@@ -2,9 +2,10 @@
 using namespace std;
 int main()
 {
-    int a;
-    cout<<"enter a number:";
-    cin>>a;
+    int a=5;
+    
+    cout<<"enter a number:"<<a<<endl;
+    
 
     if(a%2==0)
     {
