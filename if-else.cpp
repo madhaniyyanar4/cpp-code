@@ -2,7 +2,9 @@
 using namespace std;
 int main()
 {
-    int a=5;
+    int a;
+    cout<<"enter a number:";
+    cin>>a;
     
     cout<<"enter a number:"<<a<<endl;
     
