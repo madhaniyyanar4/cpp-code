@@ -2,9 +2,11 @@
 using namespace std;
 int main()
 {
-    int a=10,int b;
+    int a=10, *b;
     b=&a;
-
+    cout<<a<<endl;
+    cout<<*b<<endl;
     cout<<b<<endl;
+    cout<<&a<<endl;
 return 0;
 }
